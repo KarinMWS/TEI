@@ -175,6 +175,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/KarinMWS/TEI/main/fr_bpp_29_13_0003.tei.xml?place_annotation_20240726114950845",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-07-26T09:49:50.845Z",
+	"dcterms:modified": "2024-07-26T09:49:50.845Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KarinMWS",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Karin Wallner"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/KarinMWS/TEI/main/fr_bpp_29_13_0003.tei.xml?place_annotation_20240726114950845#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/KarinMWS/TEI/main/fr_bpp_29_13_0003.tei.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://stable.leafwriter.users.h-da.cloud",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/KarinMWS/TEI/main/fr_bpp_29_13_0003.tei.xml?place_annotation_20240726114950845#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[12]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://geonames.org/2892794",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://stable.leafwriter.users.h-da.cloud",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><profileDesc>
         </profileDesc>
   </teiHeader>
@@ -202,7 +281,7 @@
           <persName key="p0898" ref="385e86a2-2f8b-4987-82b4-67e4cf93c9c6">le Comte de Romanzoff</persName>
         </p>
         <p/>
-        <p>à Carlsruhe le 13 / 24 Avril 1794.</p>
+        <p>à <placeName key="Karlsruhe Baden-Wurttemberg Germany" ref="https://geonames.org/2892794">Carlsruhe</placeName> le 13 / 24 Avril 1794.</p>
       </div>
     </body>
   </text>
