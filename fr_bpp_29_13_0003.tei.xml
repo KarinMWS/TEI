@@ -129,84 +129,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/KarinMWS/TEI/main/fr_bpp_29_13_0003.tei.xml?place_annotation_20240726104603373",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-07-26T08:46:03.373Z",
-	"dcterms:modified": "2024-07-26T08:46:03.373Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/KarinMWS",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Karin Wallner"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/KarinMWS/TEI/main/fr_bpp_29_13_0003.tei.xml?place_annotation_20240726104603373#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/KarinMWS/TEI/main/fr_bpp_29_13_0003.tei.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://stable.leafwriter.users.h-da.cloud",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/KarinMWS/TEI/main/fr_bpp_29_13_0003.tei.xml?place_annotation_20240726104603373#Selector",
-			"@type": "oa:XPathSelector"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://geonames.org/2892794",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://stable.leafwriter.users.h-da.cloud",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/KarinMWS/TEI/main/fr_bpp_29_13_0003.tei.xml?place_annotation_20240726114950845",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-07-26T09:49:50.845Z",
@@ -272,7 +194,7 @@
           <persName key="p1158" ref="9967d2ea-44ee-44ec-a313-b1eda6c9a849">Ambassadeur de Russie en Pologne</persName>
         </p>
         <p>Monsieur,</p>
-        <p>J’ai reçu la lettre par laquelle Votre Excellence m’a anoncé [sic !] que le Jacobinisme avoit allumé les torches incendiaires en Pologne ; je suis charmé d’avoir à y faire cette reponse. C’est que <persName key="p1215" ref="811e6fd6-7273-48df-9d73-ee0f3e3b361f">l’Empereur</persName> à la tête de Son armée a gagné le 6/17 de ce mois une bataille contre l’armée des Jacobins de la France ; leur a tué quatre mille hommes, leur a pris trente canons et a tout de suitte fait investir <placeName key="g0336">Landrecies</placeName> et <placeName key="g0337">Cambray</placeName>. Le siege de la 1ere de ces deux villes se fera par <persName key="p1216" ref="b37c4021-d30d-480e-a4dd-67ba80200b8b">le Prince Hereditaire d’Orange</persName>. Du coté de <placeName key="g0338">Trêves</placeName> les Carmagnoles ont essuiés aussi une deffaitte ; tout concours à présager que les modeles de la revolte de Pologne vont bientot subir les chatiments que suspendoit seulement la Providence Divine.</p>
+        <p>J’ai reçu la lettre par laquelle <persName cert="high" evidence="internal" full="yes" generatedBy="human" instant="unknown" ref="p0000" xml:space="default">Votre Excellence</persName> m’a anoncé [sic !] que le Jacobinisme avoit allumé les torches incendiaires en Pologne ; je suis charmé d’avoir à y faire cette reponse. C’est que <persName key="p1215" ref="811e6fd6-7273-48df-9d73-ee0f3e3b361f">l’Empereur</persName> à la tête de Son armée a gagné le 6/17 de ce mois une bataille contre l’armée des Jacobins de la France ; leur a tué quatre mille hommes, leur a pris trente canons et a tout de suitte fait investir <placeName key="g0336">Landrecies</placeName> et <placeName key="g0337">Cambray</placeName>. Le siege de la 1ere de ces deux villes se fera par <persName key="p1216" ref="b37c4021-d30d-480e-a4dd-67ba80200b8b">le Prince Hereditaire d’Orange</persName>. Du coté de <placeName key="g0338">Trêves</placeName> les Carmagnoles ont essuiés aussi une deffaitte ; tout concours à présager que les modeles de la revolte de Pologne vont bientot subir les chatiments que suspendoit seulement la Providence Divine.</p>
         <p>Je prie Votre Excellence de faire parvenir la lettre ici incluse à <persName key="p1217" ref="416f6ed0-0d5f-4e3f-96c3-d9fd5de406da">Mon[siuer] Pac</persName> et d’agreer la consideration trés distinguée avec laquelle j’ai l’honneur d’être</p>
         <p>de Votre Excellence</p>
         <p/>
